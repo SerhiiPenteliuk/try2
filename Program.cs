@@ -4,7 +4,7 @@ namespace try2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void laba1()
         {
             string buf;
 
@@ -18,6 +18,10 @@ namespace try2
 
             Console.WriteLine("z1=" + z1);
             Console.WriteLine("z2=" + z2);
+        }
+        static void Main(string[] args)
+        {
+            laba1();
         }
     }
 }
